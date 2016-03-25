@@ -1,23 +1,24 @@
 {
-  "name": "isomorphic-fetch",
-  "version": "0.0.0",
-  "description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+  "name": "fetch-everywhere",
+  "version": "1.0.0",
+  "description": "Isomorphic WHATWG Fetch API, for Node, Browserify & React Native",
   "browser": "fetch-npm-browserify.js",
   "main": "fetch-npm-node.js",
+  "react-native": "fetch-npm-react-native.js",
   "scripts": {
     "files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
     "test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthew-andrews/isomorphic-fetch.git"
+    "url": "https://github.com/lucasfeliciano/fetch-everywhere.git"
   },
-  "author": "Matt Andrews <matt@mattandre.ws>",
+  "author": "Lucas Feliciano <mail@lucasfeliciano.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+    "url": "https://github.com/lucasfeliciano/fetch-everywhere/issues"
   },
-  "homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+  "homepage": "https://github.com/lucasfeliciano/fetch-everywhere/issues",
   "dependencies": {
     "node-fetch": "^1.0.1",
     "whatwg-fetch": ">=0.10.0"
