@@ -1,10 +1,9 @@
 {
   "name": "fetch-everywhere",
-  "version": "1.0.0",
-  "description": "Isomorphic WHATWG Fetch API, for Node, Browserify & React Native",
+  "version": "1.0.1",
+  "description": "Isomorphic WHATWG Fetch API, for ALL node based environments.",
   "browser": "fetch-npm-browserify.js",
   "main": "fetch-npm-node.js",
-  "react-native": "fetch-npm-react-native.js",
   "scripts": {
     "files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
     "test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha"
