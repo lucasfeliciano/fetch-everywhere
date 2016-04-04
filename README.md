@@ -1,7 +1,17 @@
-isomorphic-fetch [![Build Status](https://travis-ci.org/matthew-andrews/isomorphic-fetch.svg?branch=master)](https://travis-ci.org/matthew-andrews/isomorphic-fetch)
-================
 
-Fetch for node and Browserify.  Built on top of [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
+WHATWG `fetch` API for ALL node based environments.  Built on top of [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) & [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
+
+The idea behind this npm module is to support ALL nodejs based environments. If doesn't work for you, open a issue and we will support it.
+
+:)
+
+## Suported environments
+
+- node.js
+- browser
+- browserify
+- webpack
+- react-native
 
 ## Warnings
 
@@ -41,5 +51,4 @@ fetch('//offline-news-api.herokuapp.com/stories')
 ```
 
 ## License
-
-All open source code released by FT Labs is licenced under the MIT licence.  Based on [the fine work by](https://github.com/github/fetch/pull/31) **[jxck](https://github.com/Jxck)**.
+Thanks to
