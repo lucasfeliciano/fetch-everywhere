@@ -1,6 +1,6 @@
 {
   "name": "fetch-everywhere",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Isomorphic WHATWG Fetch API, for ALL node based environments.",
   "browser": "fetch-npm-browserify.js",
   "main": "fetch-npm-node.js",
