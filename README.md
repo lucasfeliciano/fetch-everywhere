@@ -23,20 +23,20 @@ The idea behind this npm module is to support ALL nodejs based environments. If 
 ### NPM
 
 ```sh
-npm install --save isomorphic-fetch es6-promise
+npm install --save fetch-everywhere es6-promise
 ```
 
 ### Bower
 
 ```sh
-bower install --save isomorphic-fetch es6-promise
+bower install --save fetch-everywhere es6-promise
 ```
 
 ## Usage
 
 ```js
 require('es6-promise').polyfill();
-require('isomorphic-fetch');
+require('fetch-everywhere');
 
 fetch('//offline-news-api.herokuapp.com/stories')
 	.then(function(response) {
