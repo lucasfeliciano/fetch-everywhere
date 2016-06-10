@@ -1,7 +1,7 @@
 
-WHATWG `fetch` API for ALL node based environments.  Built on top of [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) & [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
+WHATWG `fetch` API for ALL JavaScript environments.  Built on top of [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) & [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
 
-The idea behind this npm module is to support ALL nodejs based environments. If doesn't work for you, open a issue and we will support it.
+The idea behind this npm module is to support ALL JavaScript environments. If doesn't work for you, open a issue and we will support it.
 
 :)
 
